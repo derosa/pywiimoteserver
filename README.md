@@ -15,7 +15,12 @@ This is just a python program:
 
     python pywiimoteserver.py
 
-Beware that right now the server is a one-use-app. When then client disconnects, you need to restart the server. I'll work on fixing this some day...
+How to use it
+-------------
+Just connect to the server (port 25001 by default) and start receiving data. The format is pretty silly right now:
+    WIIMOTE:PITCH_VALUE:ROLL_VALUE
+
+This is what I need right now and it's easy as pie to adapt it for any need you may have.
 
 License
 --------
