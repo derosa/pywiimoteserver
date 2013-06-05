@@ -18,6 +18,7 @@ This is just a python program:
 How to use it
 -------------
 Just connect to the server (port 25001 by default) and start receiving data. The format is pretty silly right now:
+    
     WIIMOTE:PITCH_VALUE:ROLL_VALUE
 
 This is what I need right now and it's easy as pie to adapt it for any need you may have.
